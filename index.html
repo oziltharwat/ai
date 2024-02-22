@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Nastaliq+Urdu:wght@500&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="">
+      <!-- nav bar -->
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="photos/ai-hub-svgrepo-com.svg"
+              alt="Logo"
+              width="60"
+              height="48"
+              class="d-inline-block align-text-top"
+            />
+            <span class="d-inline-block align-text-top text-wrap"
+              >AI Image
+            </span>
+          </a>
+        </div>
+      </nav>
+
+      <!-- main section -->
+      <section
+        class="container d-flex justify-content-center align-items-center flex-column"
+      >
+        <div class="">
+          <h1 class="text-center pt-5 text-wrap">Image generation</h1>
+        </div>
+        <div class="py-4 row justify-content-center align-items-center images">
+          <div class="box-1 col-4 m-2"></div>
+          <div class="box-2 col-4 m-2"></div>
+          <div class="box-3 col-4 m-2"></div>
+        </div>
+        <div class="messageBox my-4">
+          <input
+            required=""
+            placeholder="Message..."
+            type="text"
+            id="messageInput"
+          />
+          <button id="sendButton" onclick="GetImages()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 664 663"
+            >
+              <path
+                fill="none"
+                d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888"
+              ></path>
+              <path
+                stroke-linejoin="round"
+                stroke-linecap="round"
+                stroke-width="33.67"
+                stroke="#6c6c6c"
+                d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
